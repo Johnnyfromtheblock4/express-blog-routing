@@ -7,6 +7,8 @@ const app = express();
 // definisco la porta
 const port = 3000;
 
+//
+
 // definisco la rotta base
 app.get("/", (req, res) => {
   res.send("Benvenuti nel mio blog");
